@@ -1,0 +1,265 @@
+* {
+  /* background-color: red; */
+  margin: 0;
+}
+.app {
+  position: relative;
+  width: 100%;
+  height: 979px;
+  background: #373b7b;
+}
+
+/* header */
+
+.app__headerLeft {
+  position: absolute;
+  width: 129px;
+  height: 45px;
+  left: 122px;
+  top: 45px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.app__about {
+  position: absolute;
+  width: 59px;
+  height: 27px;
+  left: 478px;
+  top: 53px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.app__event {
+  position: absolute;
+  width: 65px;
+  height: 27px;
+  left: 587px;
+  top: 53px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.app__contactUs {
+  position: absolute;
+  width: 107px;
+  height: 27px;
+  left: 702px;
+  top: 53px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.app__headerRight {
+  /* position: absolute; */
+  width: 92px;
+  height: 43px;
+  left: 1246px;
+  top: 45px;
+
+  background-color: #000000;
+}
+.app__logInBox {
+  /* position: absolute; */
+  width: 92px;
+  height: 43px;
+  left: 1246px;
+  top: 45px;
+
+  background: #000000;
+  z-index: 5;
+}
+.app__logInText {
+  position: relative;
+  width: 62px;
+  height: 27px;
+  left: 1259px;
+  top: 53px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  z-index: 999999;
+}
+
+/* mid-left */
+.app__mid1 {
+  position: absolute;
+  width: 731px;
+  height: 174px;
+  left: 112px;
+  top: 216px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 87px;
+  letter-spacing: -0.01em;
+
+  color: #ffffff;
+}
+.app__midBox1 {
+  position: absolute;
+  width: 326px;
+  height: 64px;
+  left: 112px;
+  top: 458px;
+  border: none;
+
+  background: #ff6868;
+}
+.app__midBox2 {
+  position: absolute;
+  width: 326px;
+  height: 64px;
+  left: 475px;
+  top: 457px;
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  background: none;
+
+}
+.app__joinText {
+  position: absolute;
+  width: 218px;
+  height: 27px;
+  left: 166px;
+  top: 476px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 136.5%;
+  /* or 27px */
+
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.app__explorText {
+  position: absolute;
+  width: 86px;
+  height: 29px;
+  left: 595px;
+  top: 474px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 136.5%;
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+/* mid-right */
+.app__backgroundColor {
+  position: absolute;
+  width: 486px;
+  height: 640px;
+  left: 906px;
+  top: 0px;
+
+  background: #b4b8ff;
+  z-index: 0;
+}
+.app__image {
+  /* position: absolute; */
+  width: 527px;
+  height: 693px;
+  left: 868px;
+  top: 73px;
+  border: none;
+  margin-left: -20px;
+
+  /* background: url(doctor-14044.png); */
+}
+
+/* footer */
+
+.app__footerText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: rgba(55, 59, 123, 0.58);
+}
+
+.image__footerImg1 {
+  position: relative;
+  height: 129px;
+}
+.image__footerImg2 {
+  position: relative;
+  height: 168px;
+}
+.image__footerImg3 {
+  position: relative;
+  height: 109px;
+}
+.image__footerImg4 {
+  position: relative;
+  height: 127px;
+}
+.image__footerImg5 {
+  position: relative;
+  height: 54px;
+}
+.image__footerText5 {
+  position: relative;
+  height: 21px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #1d1d1b;
+}

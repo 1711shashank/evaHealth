@@ -1,0 +1,14 @@
+.form {
+  padding: 10px 100px;
+  background: #ffffff;
+}
+
+
+input,select,
+textarea{
+  width: 100%;
+  display: block;
+  border: 1px solid #d0d0d0;
+  background-color: white;
+  padding: 20px;
+}
